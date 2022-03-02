@@ -2,11 +2,11 @@ global-styling:
   version: 1.x
   css:
     base:
+      https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap: { type: external }
       css/style.css: {}
-    js:
+
+  js:
     js/scripts.js: {}
-    theme:
-     https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap: { type: external }
 
   dependencies:
     - core/jquery

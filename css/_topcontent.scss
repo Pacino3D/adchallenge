@@ -1,0 +1,44 @@
+#block-top-content-header {
+    height:700px;
+    background-size: cover;
+    background-position: left;
+    width:100%;
+}
+#challenge-home {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+
+    h2 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFFFFF;
+        text-transform: capitalize;
+        margin:0;
+        &:after {
+            content: '';
+            position: absolute;
+            top: calc(100% + 25px);
+            left: 0;
+            height: 1px;
+            width: 100%;
+            border-radius: 3px;
+            background: #ffffff;
+            opacity:0.4;
+        }
+    }
+    .field > a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem 2.5rem;
+    background: red;
+    border-radius: 5px;
+    text-transform: uppercase;
+    }
+}

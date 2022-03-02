@@ -1,0 +1,55 @@
+/*ABOUT ME SECTION */
+#challenge-about-me {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.content-left {
+    margin-top: 165px;
+    width:420px;
+    z-index: 2;
+    @include mq (small){
+        margin-top:0;
+    }
+}
+.img-right {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-top: 165px;
+  margin-bottom: 180px;
+  & .field {
+    position:relative;
+    height:480px;
+    width:525px;
+    z-index: 1;
+    &:after {
+        display:block;
+        content:'';
+        position:absolute;
+        right:0px;
+        bottom:0px;
+        width:150px;
+        height:150px;
+        background: #1D1524;
+        z-index:-1;
+        transform: translate(50%, 50%) rotate(45deg);
+    }
+        &:before {
+            display:block;
+            content:'';
+            position:absolute;
+            left:0px;
+            top:0px;
+            width:330px;
+            height:330px;
+            background: #0F2123;
+            z-index:-1;
+            transform: translate(-50%, -50%);
+        }
+    }
+    .image-style-about-me {
+        object-fit:none;
+        height:100%;
+    }
+}

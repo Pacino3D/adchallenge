@@ -1,0 +1,37 @@
+/*FOOTER*/
+.region-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    nav {
+        padding:1rem 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: #002326;
+    }
+    & > div {
+        color:white;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: #233132;
+        
+    }
+    .menu {
+        display: flex;
+        gap: 30px;
+        color: #949494;
+        a {
+            color: #949494;
+        }
+    }
+    #block-footercreated p {
+        color:color(medium-gray);
+        font-size: 12px;
+        & > a {
+            color:color(medium-gray);
+        }
+    }
+}
