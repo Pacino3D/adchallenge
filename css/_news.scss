@@ -6,10 +6,12 @@
         width:80%;
     }
 }
+// NEWS - WRAPPER
 .view-content {
     display:flex;
     gap:60px;
     flex-wrap: wrap;
+    // EVENT - CARD
     .views-row {
         flex: 1;
         min-width: 250px;

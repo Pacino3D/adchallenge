@@ -25,9 +25,9 @@ header {
                 justify-content: center;
                 flex-direction: column;
                 height: 125px;
-            } 
-            
+            }  
     }
+    // LEFT - BRANDING
     #block-adchallenge-branding {
         display: flex;
         justify-content: center;
@@ -47,42 +47,45 @@ header {
     ul {
         margin-left: 0!important;
     }
-   .menu {
-        text-decoration: none;
-        display: flex;
-        gap: 42px;
-        margin-left: 0;
-        @include mq (small){
-            inset:0 0 0 30%;
-            }  
-            
-        li {
+    //RIGHT - NAVBAR
+    nav {
+    .menu {
             text-decoration: none;
-            position: relative;
-            &.active:after{
-                content: '';
-                position: absolute;
-                top: calc(100% + 6px);
-                left: 0;
-                height: 2px;
-                width: 100%;
-                border-radius: 3px;
-                background: color(blue);
-            }
-            .region-footer & a {
-                text-transform:unset;
-                color:color(medium-gray);
-            }
-            a {
-                position: relative;
-                color:color(white);
+            display: flex;
+            gap: 42px;
+            margin-left: 0;
+            @include mq (small){
+                inset:0 0 0 30%;
+                }  
+                
+            li {
                 text-decoration: none;
-                font-family: Roboto;
-                font-style: normal;
-                font-weight: 500;
-                font-size: 14px;
-                line-height: 16px;
-                text-transform: uppercase;
+                position: relative;
+                &.active:after{
+                    content: '';
+                    position: absolute;
+                    top: calc(100% + 6px);
+                    left: 0;
+                    height: 2px;
+                    width: 100%;
+                    border-radius: 3px;
+                    background: color(blue);
+                }
+                .region-footer & a {
+                    text-transform:unset;
+                    color:color(medium-gray);
+                }
+                a {
+                    position: relative;
+                    color:color(white);
+                    text-decoration: none;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 16px;
+                    text-transform: uppercase;
+                }
             }
         }
     }

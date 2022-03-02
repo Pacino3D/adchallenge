@@ -13,6 +13,7 @@
         height:auto;
         margin:50px auto;
     }
+    // LEFT CONTAINER
     .img-left {
         flex-shrink: 0;
         @include mq (medium) {
@@ -23,6 +24,7 @@
           }
       
     }
+    // DRIGHT CONTAINER
     .content-right {
         flex:1;
         display: flex;

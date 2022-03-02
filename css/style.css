@@ -223,7 +223,7 @@ header ul {
   margin-left: 0 !important;
 }
 
-header .menu {
+header nav .menu {
   text-decoration: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -233,17 +233,17 @@ header .menu {
 }
 
 @media (max-width: 768px) {
-  header .menu {
+  header nav .menu {
     inset: 0 0 0 30%;
   }
 }
 
-header .menu li {
+header nav .menu li {
   text-decoration: none;
   position: relative;
 }
 
-header .menu li.active:after {
+header nav .menu li.active:after {
   content: '';
   position: absolute;
   top: calc(100% + 6px);
@@ -254,12 +254,12 @@ header .menu li.active:after {
   background: #0097A7;
 }
 
-.region-footer header .menu li a {
+.region-footer header nav .menu li a {
   text-transform: unset;
   color: #949494;
 }
 
-header .menu li a {
+header nav .menu li a {
   position: relative;
   color: #ffffff;
   text-decoration: none;
