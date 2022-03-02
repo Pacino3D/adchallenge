@@ -3,15 +3,27 @@
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap:40px;
+    @include mq(medium){
+        justify-content: center;
+    }
 }
 .content-left {
     margin-top: 165px;
     width:420px;
     z-index: 2;
+    flex:1;
+    @include mq(medium){
+        margin-top:0;
+        height:auto;
+        width: auto;
+        flex-basis: 50%;
+    }
+}
     @include mq (small){
         margin-top:0;
     }
-}
+    
 .img-right {
   display:flex;
   justify-content:center;
@@ -23,6 +35,16 @@
     height:480px;
     width:525px;
     z-index: 1;
+    @include mq(small){
+        height:auto;
+        width: auto;
+    }
+    @include mq(medium){
+        height:auto;
+        width: auto;
+        flex-basis: 45%;
+        flex:1;
+    }
     &:after {
         display:block;
         content:'';
@@ -50,6 +72,5 @@
     }
     .image-style-about-me {
         object-fit:none;
-        height:100%;
     }
 }

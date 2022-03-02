@@ -76,7 +76,7 @@ h1 {
   color: #FFFFFF;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   h1 {
     font-size: 46px;
   }
@@ -120,6 +120,12 @@ main .container {
   margin: 0 auto;
 }
 
+@media (max-width: 1200px) {
+  main .container {
+    width: 80%;
+  }
+}
+
 .region-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -131,6 +137,12 @@ main .container {
   gap: 120px;
 }
 
+@media (max-width: 1200px) {
+  .region-content {
+    gap: 60px;
+  }
+}
+
 /*HEADER*/
 header {
   position: fixed;
@@ -140,6 +152,7 @@ header {
   background-color: #101010;
   background: rgba(0, 0, 0, 0.25);
   mix-blend-mode: normal;
+  z-index: 1000;
 }
 
 header .region-header {
@@ -159,8 +172,16 @@ header .region-header {
       flex-wrap: wrap;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
   header .region-header {
+    width: calc(100% - 150px);
+  }
+}
+
+@media (max-width: 768px) {
+  header .region-header {
+    width: 100%;
+    margin: auto;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -168,6 +189,7 @@ header .region-header {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    height: 125px;
   }
 }
 
@@ -197,15 +219,20 @@ header #block-adchallenge-branding .site-logo {
       flex-shrink: 0;
 }
 
+header ul {
+  margin-left: 0 !important;
+}
+
 header .menu {
   text-decoration: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 42px;
+  margin-left: 0;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   header .menu {
     inset: 0 0 0 30%;
   }
@@ -249,9 +276,12 @@ header .menu li a {
   background-size: cover;
   background-position: left;
   width: 100%;
+  background-position-y: inherit !important;
 }
 
 #challenge-home {
+  background: rgba(0, 0, 0, 0.25);
+  mix-blend-mode: normal;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -265,7 +295,16 @@ header .menu li a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 100%;
   height: 100%;
+}
+
+#challenge-home h1 {
+  margin-top: 55px;
+}
+
+#challenge-home h1 strong {
+  font-weight: 500;
 }
 
 #challenge-home h2 {
@@ -282,7 +321,7 @@ header .menu li a {
 #challenge-home h2:after {
   content: '';
   position: absolute;
-  top: calc(100% + 25px);
+  top: calc(100% + 32px);
   left: 0;
   height: 1px;
   width: 100%;
@@ -305,6 +344,12 @@ header .menu li a {
 #block-adchallenge-content {
   width: calc(100% - 390px);
   margin: auto;
+}
+
+@media (max-width: 1200px) {
+  #block-adchallenge-content {
+    width: 80%;
+  }
 }
 
 .view-content {
@@ -395,10 +440,23 @@ header .menu li a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 4rem;
-  padding: 4rem 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 60px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  height: 540px;
+}
+
+@media (max-width: 1200px) {
+  #challenge-event {
+    height: auto;
+    margin: 50px auto;
+  }
 }
 
 #challenge-event .img-left {
@@ -406,10 +464,19 @@ header .menu li a {
       flex-shrink: 0;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
   #challenge-event .img-left {
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  #challenge-event .img-left {
+    -webkit-box-flex: 1;
+        -ms-flex: auto;
+            flex: auto;
   }
 }
 
@@ -433,6 +500,12 @@ header .menu li a {
 #block-adchallenge-content {
   width: calc(100% - 390px);
   margin: auto;
+}
+
+@media (max-width: 1200px) {
+  #block-adchallenge-content {
+    width: 80%;
+  }
 }
 
 .view-content {
@@ -524,18 +597,38 @@ header .menu li a {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  gap: 40px;
+}
+
+@media (max-width: 1200px) {
+  #challenge-about-me {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .content-left {
   margin-top: 165px;
   width: 420px;
   z-index: 2;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
   .content-left {
     margin-top: 0;
+    height: auto;
+    width: auto;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
   }
+}
+
+@media (max-width: 768px) {
+  margin-top: 0;
 }
 
 .img-right {
@@ -557,6 +650,25 @@ header .menu li a {
   height: 480px;
   width: 525px;
   z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .img-right .field {
+    height: auto;
+    width: auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  .img-right .field {
+    height: auto;
+    width: auto;
+    -ms-flex-preferred-size: 45%;
+        flex-basis: 45%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
 }
 
 .img-right .field:after {
@@ -590,7 +702,6 @@ header .menu li a {
 .img-right .image-style-about-me {
   -o-object-fit: none;
      object-fit: none;
-  height: 100%;
 }
 
 /*FOOTER*/
@@ -640,6 +751,22 @@ header .menu li a {
   display: flex;
   gap: 30px;
   color: #949494;
+}
+
+@media (max-width: 768px) {
+  .region-footer .menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 20px;
+  }
 }
 
 .region-footer .menu a {

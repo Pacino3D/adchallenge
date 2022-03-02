@@ -13,19 +13,24 @@ window.addEventListener("load", () => {
 window.addEventListener("scroll", () => {   
     var scroll = $(window).scrollTop() + 140;
     console.log(scroll);
-    if (scroll < newstop) {
-      $("#one").addClass("active");
-    } else {
-      $("#one").removeClass("active");
-    }
-    if (scroll >= abouttop & scroll < threetop) {
-      $("#two").addClass("active");
-    } else {
-      $("#two").removeClass("active");
-    }
-    if (scroll >= threetop & scroll < threebot) {
-      $("#three").addClass("active");
-  } else {
-      $("#three").removeClass("active");
-  }
+        if (scroll < newstop) {
+        $("#one").addClass("active");
+        } else {
+        $("#one").removeClass("active");
+        }
+        if (scroll >= newstop & scroll < eventtop) {
+        $("#two").addClass("active");
+        } else {
+        $("#two").removeClass("active");
+        }
+        if (scroll >= eventtop & scroll < abouttop) {
+        $("#three").addClass("active");
+        } else {
+            $("#three").removeClass("active");
+        }
+        if (scroll >= abouttop & scroll < aboutbot) {
+            $("#three").addClass("active");
+        } else {
+            $("#three").removeClass("active");
+        }
   });

@@ -4,14 +4,24 @@
 }
 #challenge-event {
     display:flex;
-    gap:4rem;
-    padding: 4rem 0;
+    justify-content: center;
+    align-items: center;
+    gap:60px;
     flex-wrap: wrap;
+    height:540px;
+    @include mq(medium){
+        height:auto;
+        margin:50px auto;
+    }
     .img-left {
         flex-shrink: 0;
-        @include mq (small){
-            flex-shrink: 1;
-      }
+        @include mq (medium) {
+            flex: 1;
+          }
+          @include mq (small) {
+            flex: auto;
+          }
+      
     }
     .content-right {
         flex:1;

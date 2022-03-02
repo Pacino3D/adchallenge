@@ -23,6 +23,12 @@
         display: flex;
         gap: 30px;
         color: #949494;
+        @include mq (small) {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
         a {
             color: #949494;
         }

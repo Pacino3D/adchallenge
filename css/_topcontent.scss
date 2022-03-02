@@ -3,13 +3,24 @@
     background-size: cover;
     background-position: left;
     width:100%;
+    background-position-y: inherit!important;
 }
 #challenge-home {
+    background: rgba(0, 0, 0, 0.25);
+    mix-blend-mode: normal;
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
     height:100%;
+
+    h1 {
+        margin-top:55px;
+        & strong{
+        font-weight: 500;
+        }
+    }
 
     h2 {
         font-family: Roboto;
@@ -23,7 +34,7 @@
         &:after {
             content: '';
             position: absolute;
-            top: calc(100% + 25px);
+            top: calc(100% + 32px);
             left: 0;
             height: 1px;
             width: 100%;

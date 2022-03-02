@@ -9,8 +9,8 @@ $colors:(
     medium-gray: #949494
     );
 $breakpoints:(
-    small:600px,
-    medium:870px
+    small:768px,
+    medium:1200px
 );
 @each $name, $color in $colors {
     .#{$name} {
@@ -44,6 +44,7 @@ html {
 }
 body {
     font-family: 'Roboto';
+    // overflow: hidden; 
 }
 img {
     width: 100%;
@@ -107,12 +108,18 @@ h2 {
 main .container{
     width: calc(100% - 390px);
     margin:0 auto;
+    @include mq (medium){
+        width:80%;
+    }
 }
 
 .region-content {
     display: flex;
     flex-direction: column;
     gap: 120px;
+    @include mq (medium){
+        gap:60px;
+    }
 }
 
 @import "header";

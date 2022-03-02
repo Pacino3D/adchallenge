@@ -2,6 +2,9 @@
 #block-adchallenge-content {
     width:calc(100% - 390px);
     margin:auto;
+    @include mq (medium){
+        width:80%;
+    }
 }
 .view-content {
     display:flex;

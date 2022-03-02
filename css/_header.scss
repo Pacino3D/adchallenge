@@ -7,6 +7,7 @@ header {
     background-color: color(black);
     background: rgba(0, 0, 0, 0.25);
     mix-blend-mode: normal;
+    z-index: 1000;
     .region-header {
         width: calc(100% - 390px);
         margin:auto;
@@ -15,10 +16,17 @@ header {
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
+        @include mq (medium){
+            width: calc(100% - 150px);
+        } 
         @include mq (small){
+                width: 100%;
+                margin: auto;
                 justify-content: center;
                 flex-direction: column;
-            }  
+                height: 125px;
+            } 
+            
     }
     #block-adchallenge-branding {
         display: flex;
@@ -36,14 +44,18 @@ header {
             flex-shrink: 0;
         }
     }
-
-    .menu {
+    ul {
+        margin-left: 0!important;
+    }
+   .menu {
         text-decoration: none;
         display: flex;
         gap: 42px;
+        margin-left: 0;
         @include mq (small){
             inset:0 0 0 30%;
             }  
+            
         li {
             text-decoration: none;
             position: relative;
