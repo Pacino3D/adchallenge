@@ -379,7 +379,7 @@ header nav .menu li a {
 }
 
 .view-content .node__links {
-  margin-top: 2rem;
+  margin-top: 32px;
 }
 
 .view-content .node-readmore {
@@ -388,7 +388,7 @@ header nav .menu li a {
 }
 
 .view-content .node-readmore > a {
-  margin-top: 2rem;
+  margin-top: 32px;
   position: relative;
 }
 
@@ -535,7 +535,7 @@ header nav .menu li a {
 }
 
 .view-content .node__links {
-  margin-top: 2rem;
+  margin-top: 32px;
 }
 
 .view-content .node-readmore {
@@ -544,7 +544,7 @@ header nav .menu li a {
 }
 
 .view-content .node-readmore > a {
-  margin-top: 2rem;
+  margin-top: 32px;
   position: relative;
 }
 
