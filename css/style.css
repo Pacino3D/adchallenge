@@ -207,7 +207,7 @@ header #block-adchallenge-branding {
 }
 
 header #block-adchallenge-branding .site-slogan {
-  font-weight: 500;
+  font-weight: 100;
   font-size: 32px;
   line-height: 75px;
   text-transform: capitalize;
