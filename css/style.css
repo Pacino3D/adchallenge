@@ -137,9 +137,9 @@ main .container {
   gap: 120px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
   .region-content {
-    gap: 60px;
+    gap: 80px;
   }
 }
 
@@ -722,7 +722,7 @@ header .menu li a {
 }
 
 .region-footer nav {
-  padding: 1rem 0;
+  padding: 16px 0;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -730,10 +730,20 @@ header .menu li a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #002326;
+  height: 70px;
 }
 
-.region-footer > div {
+@media (max-width: 768px) {
+  .region-footer nav {
+    height: auto;
+  }
+}
+
+.region-footer div {
   color: white;
   width: 100%;
   display: -webkit-box;
@@ -742,7 +752,15 @@ header .menu li a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #233132;
+  height: 50px;
+}
+
+.region-footer div p {
+  margin: 0;
 }
 
 .region-footer .menu {

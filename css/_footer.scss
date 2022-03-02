@@ -5,19 +5,29 @@
     justify-content: center;
     align-items: center; 
     nav {
-        padding:1rem 0;
+        padding:16px 0;
         width: 100%;
         display: flex;
         justify-content: center;
+        align-items: center;
         background-color: #002326;
+        height:70px;
+        @include mq(small){
+            height:auto;
+        }
     }
-    & > div {
+    & div {
         color:white;
         width: 100%;
         display: flex;
         justify-content: center;
+        align-items: center;
         background-color: #233132;
+        height:50px;
         
+        p{
+            margin:0;
+        }
     }
     .menu {
         display: flex;
