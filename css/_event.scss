@@ -1,6 +1,9 @@
 /*LATEST EVENT - SECTION*/
 #block-latest-event{
     background:color(dark-blue);
+    :target {
+        scroll-margin-top: 100px;
+    }
 }
 #challenge-event {
     display:flex;

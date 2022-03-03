@@ -63,17 +63,16 @@ header {
     //RIGHT - NAVBAR
     nav {
     .menu {
-            text-decoration: none;
-            display: flex;
-            gap: 42px;
-            margin-left: 0;
-            @include mq (medium){
-                gap: 35px;
-            }
-            @include mq (small){
-                inset:0 0 0 30%;
-                }  
-                
+    text-decoration: none;
+    display: flex;
+    gap: 42px;
+    margin-left: 0;
+    @include mq (medium){
+        gap: 35px;
+    }
+    @include mq (small){
+        inset:0 0 0 30%;
+        }  
             li {
                 text-decoration: none;
                 position: relative;
@@ -87,7 +86,6 @@ header {
                     width: 100%;
                     border-radius: 3px;
                     background: color(blue);
-                    
                 }
                 .region-footer & a {
                     text-transform:unset;

@@ -530,6 +530,10 @@ header nav .menu li a {
   background: #161E21;
 }
 
+#block-latest-event :target {
+  scroll-margin-top: 100px;
+}
+
 #challenge-event {
   display: -webkit-box;
   display: -ms-flexbox;
