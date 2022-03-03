@@ -117,7 +117,6 @@ html {
 
 body {
   font-family: 'Roboto';
-  text-rendering: optimizeLegibility;
 }
 
 p {
@@ -427,7 +426,10 @@ header nav .menu li a {
   display: block;
   text-decoration: none;
   color: white;
-  padding: 1rem 2.5rem;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 17px 51px;
   background: red;
   border-radius: 5px;
   text-transform: uppercase;
@@ -536,10 +538,6 @@ header nav .menu li a {
 /*LATEST EVENT - SECTION*/
 #block-latest-event {
   background: #161E21;
-}
-
-#block-latest-event :target {
-  scroll-margin-top: 100px;
 }
 
 #challenge-event {
@@ -909,12 +907,12 @@ header nav .menu li a {
 }
 
 .region-footer #block-footercreated p {
-  color: #949494;
+  color: #D4D4D4;
   font-size: 12px;
 }
 
 .region-footer #block-footercreated p > a {
-  color: #949494;
+  color: #D4D4D4;
   text-decoration: underline;
 }
 /*# sourceMappingURL=style.css.map */
