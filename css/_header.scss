@@ -81,9 +81,9 @@ header {
                 &.active:after{
                     content: '';
                     position: absolute;
-                    top: calc(100% + 6px);
+                    top: calc(100% + 7px);
                     left: 0;
-                    height: 2px;
+                    height: 3px;
                     width: 100%;
                     border-radius: 3px;
                     background: color(blue);
