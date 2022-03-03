@@ -5,8 +5,8 @@ var aboutbot = 0;
 
 (function ($) {
 window.addEventListener("load", () => {
-    $(".site-slogan")[0].innerHTML = "<strong>Music</strong>Theme";
-    $(".menu-item")[1].childNodes[1].href = "http://localhost/#block-adchallenge-content";
+    $(".site-slogan")[0].innerHTML = "<strong>Music</strong>Theme"; /*Popravek za izgled na logotu <strong značka>*/
+    $(".menu-item")[1].childNodes[1].href = "http://localhost/#block-adchallenge-content"; /*Popravek da deluje news gumb>*/
     newstop = $("#block-adchallenge-content")[0].getBoundingClientRect().top + $(window).scrollTop();
     eventtop = $("#challenge-event")[0].getBoundingClientRect().top + $(window).scrollTop();
     abouttop = $("#block-about-me")[0].getBoundingClientRect().top + $(window).scrollTop();
