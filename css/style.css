@@ -430,7 +430,7 @@ header nav .menu li a {
   font-size: 14px;
   line-height: 16px;
   padding: 17px 51px;
-  background: red;
+  background: #FF5252;
   border-radius: 5px;
   text-transform: uppercase;
 }
