@@ -23,7 +23,7 @@ for (var i = 0; i < items.length; i++) {
       });
     } */
 window.addEventListener("scroll", () => {   
-    var scroll = $(window).scrollTop() + 150;
+    var scroll = $(window).scrollTop() + 120;
         if (scroll < newstop) {
             $(".menu-item")[0].className = "menu-item active";
         } else {

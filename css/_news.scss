@@ -2,6 +2,7 @@
 #block-adchallenge-content {
     width:calc(100% - 390px);
     margin:auto;
+    scroll-margin-top:120px;
     @include mq (medium){
         width:80%;
     }
