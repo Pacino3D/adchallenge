@@ -454,7 +454,11 @@ header nav .menu li a {
   }
 }
 
-.view-content {
+#block-adchallenge-content h2 {
+  margin-bottom: 85px;
+}
+
+#block-adchallenge-content .view-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -463,14 +467,14 @@ header nav .menu li a {
       flex-wrap: wrap;
 }
 
-.view-content .views-row {
+#block-adchallenge-content .view-content .views-row {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
   min-width: 250px;
 }
 
-.view-content article > h2 {
+#block-adchallenge-content .view-content article > h2 {
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
@@ -478,25 +482,25 @@ header nav .menu li a {
   margin-bottom: 10px;
 }
 
-.view-content article > h2:after {
+#block-adchallenge-content .view-content article > h2:after {
   display: none;
 }
 
-.view-content .node__links {
+#block-adchallenge-content .view-content .node__links {
   margin-top: 32px;
 }
 
-.view-content .node-readmore {
+#block-adchallenge-content .view-content .node-readmore {
   padding: 0;
   color: white;
 }
 
-.view-content .node-readmore > a {
+#block-adchallenge-content .view-content .node-readmore > a {
   margin-top: 32px;
   position: relative;
 }
 
-.view-content .node-readmore a:after {
+#block-adchallenge-content .view-content .node-readmore a:after {
   content: ' ';
   position: absolute;
   right: -18px;
@@ -512,7 +516,7 @@ header nav .menu li a {
   transition: all .3s ease-in;
 }
 
-.view-content .node-readmore a:hover::after {
+#block-adchallenge-content .view-content .node-readmore a:hover::after {
   position: absolute;
   right: -18px;
   bottom: 5px;
@@ -524,7 +528,7 @@ header nav .menu li a {
           transform: rotate(270deg);
 }
 
-.view-content .createdDate {
+#block-adchallenge-content .view-content .createdDate {
   margin-bottom: 24px;
   font-family: Roboto;
   font-style: normal;
@@ -619,7 +623,11 @@ header nav .menu li a {
   }
 }
 
-.view-content {
+#block-adchallenge-content h2 {
+  margin-bottom: 85px;
+}
+
+#block-adchallenge-content .view-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -628,14 +636,14 @@ header nav .menu li a {
       flex-wrap: wrap;
 }
 
-.view-content .views-row {
+#block-adchallenge-content .view-content .views-row {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
   min-width: 250px;
 }
 
-.view-content article > h2 {
+#block-adchallenge-content .view-content article > h2 {
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
@@ -643,25 +651,25 @@ header nav .menu li a {
   margin-bottom: 10px;
 }
 
-.view-content article > h2:after {
+#block-adchallenge-content .view-content article > h2:after {
   display: none;
 }
 
-.view-content .node__links {
+#block-adchallenge-content .view-content .node__links {
   margin-top: 32px;
 }
 
-.view-content .node-readmore {
+#block-adchallenge-content .view-content .node-readmore {
   padding: 0;
   color: white;
 }
 
-.view-content .node-readmore > a {
+#block-adchallenge-content .view-content .node-readmore > a {
   margin-top: 32px;
   position: relative;
 }
 
-.view-content .node-readmore a:after {
+#block-adchallenge-content .view-content .node-readmore a:after {
   content: ' ';
   position: absolute;
   right: -18px;
@@ -677,7 +685,7 @@ header nav .menu li a {
   transition: all .3s ease-in;
 }
 
-.view-content .node-readmore a:hover::after {
+#block-adchallenge-content .view-content .node-readmore a:hover::after {
   position: absolute;
   right: -18px;
   bottom: 5px;
@@ -689,7 +697,7 @@ header nav .menu li a {
           transform: rotate(270deg);
 }
 
-.view-content .createdDate {
+#block-adchallenge-content .view-content .createdDate {
   margin-bottom: 24px;
   font-family: Roboto;
   font-style: normal;
