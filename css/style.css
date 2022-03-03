@@ -149,7 +149,6 @@ header {
   left: 0;
   right: 0;
   top: 0;
-  background-color: #101010;
   background: rgba(0, 0, 0, 0.25);
   mix-blend-mode: normal;
   z-index: 1000;
@@ -203,7 +202,22 @@ header #block-adchallenge-branding {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 30px;
+  gap: 32px;
+}
+
+@media (max-width: 1200px) {
+  header #block-adchallenge-branding img {
+    width: 85%;
+  }
+}
+
+@media (max-width: 768px) {
+  header #block-adchallenge-branding {
+    gap: 8px;
+  }
+  header #block-adchallenge-branding img {
+    width: 70%;
+  }
 }
 
 header #block-adchallenge-branding .site-slogan {
@@ -212,6 +226,12 @@ header #block-adchallenge-branding .site-slogan {
   line-height: 75px;
   text-transform: capitalize;
   color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  header #block-adchallenge-branding .site-slogan {
+    line-height: 60px;
+  }
 }
 
 header #block-adchallenge-branding .site-logo {
@@ -230,6 +250,12 @@ header nav .menu {
   display: flex;
   gap: 42px;
   margin-left: 0;
+}
+
+@media (max-width: 1200px) {
+  header nav .menu {
+    gap: 35px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -798,5 +824,6 @@ header nav .menu li a {
 
 .region-footer #block-footercreated p > a {
   color: #949494;
+  text-decoration: underline;
 }
 /*# sourceMappingURL=style.css.map */

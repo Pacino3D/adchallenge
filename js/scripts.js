@@ -10,7 +10,8 @@ window.addEventListener("load", () => {
     newstop = $("#block-adchallenge-content")[0].getBoundingClientRect().top + $(window).scrollTop();
     eventtop = $("#challenge-event")[0].getBoundingClientRect().top + $(window).scrollTop();
     abouttop = $("#block-about-me")[0].getBoundingClientRect().top + $(window).scrollTop();
-    aboutbot = $("#block-about-me")[0].getBoundingClientRect().bottom + $(window).scrollTop();  
+    aboutbot = $("#block-about-me")[0].getBoundingClientRect().bottom + $(window).scrollTop();
+    $(".menu-item")[0].className = "menu-item active";  
 }); 
 /* var items = $(".menu-item");
 for (var i = 0; i < items.length; i++) {
