@@ -39,7 +39,7 @@ window.addEventListener("scroll", () => {
         } else {
             $(".menu-item")[2].className = "menu-item";
         }
-        if (scroll >= abouttop + 10 & scroll < aboutbot) {
+        if (scroll >= abouttop & scroll < aboutbot) {
             $(".menu-item")[3].className = "menu-item active";
         } else {
             $(".menu-item")[3].className = "menu-item";
