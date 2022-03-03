@@ -13,6 +13,12 @@ window.addEventListener("load", () => {
     abouttop = $("#block-about-me")[0].getBoundingClientRect().top + $(window).scrollTop();
     aboutbot = $("#block-about-me")[0].getBoundingClientRect().bottom + $(window).scrollTop();
 }); 
+window.addEventListener("resize", () => {
+    newstop = $("#block-adchallenge-content")[0].getBoundingClientRect().top + $(window).scrollTop();
+    eventtop = $("#challenge-event")[0].getBoundingClientRect().top + $(window).scrollTop();
+    abouttop = $("#block-about-me")[0].getBoundingClientRect().top + $(window).scrollTop();
+    aboutbot = $("#block-about-me")[0].getBoundingClientRect().bottom + $(window).scrollTop();
+});
 /* var items = $(".menu-item");
 for (var i = 0; i < items.length; i++) {
       items[i].addEventListener("click", function() {
