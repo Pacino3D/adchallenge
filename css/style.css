@@ -459,7 +459,7 @@ header nav .menu li a {
 
 /*LATEST EVENT - SECTION*/
 #block-latest-event {
-  background: #0097a71a;
+  background: #161E21;
 }
 
 #challenge-event {
@@ -759,7 +759,7 @@ header nav .menu li a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #002326;
+  background-color: #0F2123;
   height: 70px;
 }
 
@@ -781,7 +781,7 @@ header nav .menu li a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #233132;
+  background-color: #1E2C2E;
   height: 50px;
 }
 
