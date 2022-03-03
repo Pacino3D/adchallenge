@@ -1,0 +1,30 @@
+$colors:(
+    red: #FF5252,
+    blue:#0097A7,
+    dark-blue: #161E21,
+    white:#ffffff,
+    black:#101010,
+    light-gray: #D4D4D4,
+    medium-gray: #949494
+    );
+$breakpoints:(
+    small:768px,
+    medium:1200px
+);
+/*Mixins*/
+@each $name, $color in $colors {
+    .#{$name} {
+        color:$color;
+    }
+}
+@function color ($color-name) {
+    @return map-get($colors, $color-name);
+}
+@mixin mq ($key) {
+    $size: map-get($breakpoints, $key);
+
+    @media (max-width: $size) 
+    {
+        @content;
+    }   
+}
