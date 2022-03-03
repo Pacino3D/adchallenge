@@ -46,7 +46,8 @@ a:not([class]) {
 /* Make images easier to work with */
 img,
 picture {
-  max-width: 100%;
+  width: 100%;
+  height: auto;
   display: block;
 }
 
@@ -692,6 +693,7 @@ header nav .menu li a {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 40px;
+  scroll-margin-top: 120px;
 }
 
 @media (max-width: 1200px) {
