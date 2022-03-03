@@ -1,11 +1,5 @@
 <h1>Agiledrop Front-end Challenge</h1>
 <p>Tasks:</p>
-<ul>
-<li>Clone the code to your computer.</li>
-<li>Install database which is in root folder.</li>
-<li>Copy the content of file sites/default/example.settings.local.php to sites/default/settings.local.php. Update the file with the information for your database.</li>
-</ul>
-
 <p>Sass for styling. It doesn't matter how you compile it to CSS.</p>
 <p>Username and password is admin/admin - login by going to /user.</p>
 <ol>
