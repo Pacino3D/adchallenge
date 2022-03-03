@@ -2,12 +2,12 @@
 <p>Tasks:</p>
 <ul>
 <li>Clone the code to your computer.</li>
-<li>Install database which is in root folder of the repository to your machine.</li>
+<li>Install database which is in root folder.</li>
 <li>Copy the content of file sites/default/example.settings.local.php to sites/default/settings.local.php. Update the file with the information for your database.</li>
 </ul>
 
-<p>Sass for styling. It doesn't matter how you compile it to CSS, as long as we have Sass files as an end result as well.</p>
-<p>Username and password for the Drupal account is admin/admin - login by going to /user.</p>
+<p>Sass for styling. It doesn't matter how you compile it to CSS.</p>
+<p>Username and password is admin/admin - login by going to /user.</p>
 <ol>
 <li>Style the front page using <a href="https://www.figma.com/file/a2EQ6MZSupAXoKFij5jt8i/Agiledrop-FE-Challenge?node-id=0%3A1" target="_blank">this design</a>.</li>
 <li>The content might not be completely the same as in design. Don't mind about it, use the one that is in the provided database. Just make sure it looks the same as in design.</li>
