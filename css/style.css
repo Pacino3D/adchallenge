@@ -368,7 +368,7 @@ header nav .menu li a {
   background-position-y: inherit !important;
 }
 
-#challenge-home {
+#block-top-content-header #challenge-home {
   background: rgba(0, 0, 0, 0.25);
   mix-blend-mode: normal;
   display: -webkit-box;
@@ -388,15 +388,15 @@ header nav .menu li a {
   height: 100%;
 }
 
-#challenge-home h1 {
+#block-top-content-header #challenge-home h1 {
   margin: 54px 0 52px;
 }
 
-#challenge-home h1 strong {
+#block-top-content-header #challenge-home h1 strong {
   font-weight: 500;
 }
 
-#challenge-home h2 {
+#block-top-content-header #challenge-home h2 {
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
@@ -407,7 +407,7 @@ header nav .menu li a {
   margin: 0;
 }
 
-#challenge-home h2:after {
+#block-top-content-header #challenge-home h2:after {
   content: '';
   position: absolute;
   top: calc(100% + 32px);
@@ -419,7 +419,7 @@ header nav .menu li a {
   opacity: 0.4;
 }
 
-#challenge-home .field > a {
+#block-top-content-header #challenge-home .field > a {
   display: block;
   text-decoration: none;
   color: white;
@@ -542,7 +542,7 @@ header nav .menu li a {
   background: #161E21;
 }
 
-#challenge-event {
+#block-latest-event #challenge-event {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -559,25 +559,25 @@ header nav .menu li a {
 }
 
 @media (max-width: 1200px) {
-  #challenge-event {
+  #block-latest-event #challenge-event {
     height: auto;
   }
 }
 
 @media (max-width: 768px) {
-  #challenge-event {
+  #block-latest-event #challenge-event {
     padding: 80px 0;
     scroll-margin-top: 45px;
   }
 }
 
-#challenge-event .img-left {
+#block-latest-event #challenge-event .img-left {
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
 
 @media (max-width: 1200px) {
-  #challenge-event .img-left {
+  #block-latest-event #challenge-event .img-left {
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
@@ -585,14 +585,14 @@ header nav .menu li a {
 }
 
 @media (max-width: 768px) {
-  #challenge-event .img-left {
+  #block-latest-event #challenge-event .img-left {
     -webkit-box-flex: 1;
         -ms-flex: auto;
             flex: auto;
   }
 }
 
-#challenge-event .content-right {
+#block-latest-event #challenge-event .content-right {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -723,7 +723,7 @@ header nav .menu li a {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 40px;
+  gap: 90px;
   padding: 120px 0 0;
 }
 
@@ -739,10 +739,11 @@ header nav .menu li a {
   #challenge-about-me {
     padding: 80px 0 0;
     scroll-margin-top: 40px;
+    gap: 0px;
   }
 }
 
-.content-left {
+#challenge-about-me .content-left {
   margin-top: 165px;
   width: 420px;
   z-index: 2;
@@ -752,7 +753,7 @@ header nav .menu li a {
 }
 
 @media (max-width: 1200px) {
-  .content-left {
+  #challenge-about-me .content-left {
     margin-top: 0;
     height: auto;
     width: auto;
@@ -762,10 +763,12 @@ header nav .menu li a {
 }
 
 @media (max-width: 768px) {
-  margin-top: 0;
+  #challenge-about-me {
+    margin-top: 0;
+  }
 }
 
-.img-right {
+#challenge-about-me .img-right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -779,7 +782,7 @@ header nav .menu li a {
   margin-bottom: 180px;
 }
 
-.img-right .field {
+#challenge-about-me .img-right .field {
   position: relative;
   height: 480px;
   width: 525px;
@@ -787,14 +790,14 @@ header nav .menu li a {
 }
 
 @media (max-width: 768px) {
-  .img-right .field {
+  #challenge-about-me .img-right .field {
     height: auto;
     width: auto;
   }
 }
 
 @media (max-width: 1200px) {
-  .img-right .field {
+  #challenge-about-me .img-right .field {
     height: auto;
     width: auto;
     -ms-flex-preferred-size: 45%;
@@ -805,7 +808,7 @@ header nav .menu li a {
   }
 }
 
-.img-right .field:after {
+#challenge-about-me .img-right .field:after {
   display: block;
   content: '';
   position: absolute;
@@ -819,7 +822,7 @@ header nav .menu li a {
           transform: translate(50%, 50%) rotate(45deg);
 }
 
-.img-right .field:before {
+#challenge-about-me .img-right .field:before {
   display: block;
   content: '';
   position: absolute;
@@ -833,7 +836,7 @@ header nav .menu li a {
           transform: translate(-50%, -50%);
 }
 
-.img-right .image-style-about-me {
+#challenge-about-me .img-right .image-style-about-me {
   -o-object-fit: none;
      object-fit: none;
 }
