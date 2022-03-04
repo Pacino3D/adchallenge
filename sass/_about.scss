@@ -4,9 +4,12 @@
     justify-content: space-between;
     flex-wrap: wrap;
     gap:40px;
-    padding:120px 0;
+    padding:120px 0 0;
     @include mq(medium){
         justify-content: center;
+    }
+    @include mq (small){
+        padding:80px 0 0;
     }
 }
 .content-left {

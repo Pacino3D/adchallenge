@@ -61,15 +61,20 @@ h2 {
     }
 }
 // LAYOUT SETTINGS
+main {
+    overflow-x: hidden;
+}
 .layout-container {
     background-color: color(black);
 }
-
-main .container{
+main {
+    overflow-x: hidden;
+& .container{
     width: calc(100% - 390px);
     margin:0 auto;
-    @include mq (medium){
-        width:80%;
+        @include mq (medium){
+            width:80%;
+        }
     }
 }
 

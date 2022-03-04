@@ -177,8 +177,16 @@ h2 > a {
   color: #ffffff;
 }
 
+main {
+  overflow-x: hidden;
+}
+
 .layout-container {
   background-color: #101010;
+}
+
+main {
+  overflow-x: hidden;
 }
 
 main .container {
@@ -441,6 +449,12 @@ header nav .menu li a {
   }
 }
 
+@media (max-width: 768px) {
+  #block-adchallenge-content {
+    padding: 80px 0;
+  }
+}
+
 #block-adchallenge-content h2 {
   margin-bottom: 85px;
 }
@@ -553,6 +567,12 @@ header nav .menu li a {
   }
 }
 
+@media (max-width: 768px) {
+  #challenge-event {
+    padding: 80px 0;
+  }
+}
+
 #challenge-event .img-left {
   -ms-flex-negative: 0;
       flex-shrink: 0;
@@ -600,6 +620,12 @@ header nav .menu li a {
 @media (max-width: 1200px) {
   #block-adchallenge-content {
     width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  #block-adchallenge-content {
+    padding: 80px 0;
   }
 }
 
@@ -699,7 +725,7 @@ header nav .menu li a {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 40px;
-  padding: 120px 0;
+  padding: 120px 0 0;
 }
 
 @media (max-width: 1200px) {
@@ -707,6 +733,12 @@ header nav .menu li a {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  #challenge-about-me {
+    padding: 80px 0 0;
   }
 }
 

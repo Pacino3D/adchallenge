@@ -12,6 +12,9 @@
     @include mq(medium){
         height:auto;
     }
+    @include mq (small){
+        padding:80px 0;
+    }
     // LEFT CONTAINER
     .img-left {
         flex-shrink: 0;

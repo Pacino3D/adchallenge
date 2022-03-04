@@ -6,6 +6,10 @@
     @include mq (medium){
         width:80%;
     }
+    @include mq (small){
+        padding:80px 0;
+    }
+
     h2 {
         margin-bottom:85px;
     }
