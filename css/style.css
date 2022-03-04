@@ -452,6 +452,7 @@ header nav .menu li a {
 @media (max-width: 768px) {
   #block-adchallenge-content {
     padding: 80px 0;
+    scroll-margin-top: 40px;
   }
 }
 
@@ -570,6 +571,7 @@ header nav .menu li a {
 @media (max-width: 768px) {
   #challenge-event {
     padding: 80px 0;
+    scroll-margin-top: 45px;
   }
 }
 
@@ -626,6 +628,7 @@ header nav .menu li a {
 @media (max-width: 768px) {
   #block-adchallenge-content {
     padding: 80px 0;
+    scroll-margin-top: 40px;
   }
 }
 
@@ -739,6 +742,7 @@ header nav .menu li a {
 @media (max-width: 768px) {
   #challenge-about-me {
     padding: 80px 0 0;
+    scroll-margin-top: 40px;
   }
 }
 

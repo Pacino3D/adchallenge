@@ -8,8 +8,8 @@
     }
     @include mq (small){
         padding:80px 0;
+        scroll-margin-top: 40px;
     }
-
     h2 {
         margin-bottom:85px;
     }
