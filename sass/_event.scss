@@ -8,7 +8,6 @@
     align-items: center;
     gap:60px;
     flex-wrap: wrap;
-    height:540px;
     padding:120px 0;
     @include mq(medium){
         height:auto;

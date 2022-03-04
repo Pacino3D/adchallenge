@@ -4,7 +4,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     gap:40px;
-    scroll-margin-top:100px;
+    padding:120px 0;
     @include mq(medium){
         justify-content: center;
     }

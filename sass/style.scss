@@ -76,10 +76,6 @@ main .container{
 .region-content {
     display: flex;
     flex-direction: column;
-    gap: 120px;
-    @include mq (small){
-        gap:80px;
-    }
 }
 
 @import "header";
