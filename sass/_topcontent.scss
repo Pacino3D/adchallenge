@@ -4,53 +4,54 @@
     background-position: left;
     width:100%;
     background-position-y: inherit!important;
-}
-#challenge-home {
-    background: rgba(0, 0, 0, 0.25);
-    mix-blend-mode: normal;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height:100%;
-    h1 {
-        margin: 54px 0 52px;
-        & strong{
+
+    #challenge-home {
+        background: rgba(0, 0, 0, 0.25);
+        mix-blend-mode: normal;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height:100%;
+        h1 {
+            margin: 54px 0 52px;
+            & strong{
+            font-weight: 500;
+            }
+        }
+        h2 {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 28px;
+            color: #FFFFFF;
+            text-transform: capitalize;
+            margin:0;
+            &:after {
+                content: '';
+                position: absolute;
+                top: calc(100% + 32px);
+                left: 0;
+                height: 1px;
+                width: 100%;
+                border-radius: 3px;
+                background: #ffffff;
+                opacity:0.4;
+            }
+        }
+        .field > a {
+        display: block;
+        text-decoration: none;
+        color: white;
         font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 17px 51px;
+        background: color(red);
+        border-radius: 5px;
+        text-transform: uppercase;
         }
-    }
-    h2 {
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 24px;
-        line-height: 28px;
-        color: #FFFFFF;
-        text-transform: capitalize;
-        margin:0;
-        &:after {
-            content: '';
-            position: absolute;
-            top: calc(100% + 32px);
-            left: 0;
-            height: 1px;
-            width: 100%;
-            border-radius: 3px;
-            background: #ffffff;
-            opacity:0.4;
-        }
-    }
-    .field > a {
-    display: block;
-    text-decoration: none;
-    color: white;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    padding: 17px 51px;
-    background: color(red);
-    border-radius: 5px;
-    text-transform: uppercase;
     }
 }
