@@ -36,6 +36,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  overflow-x: hidden;
 }
 
 /* A elements that don't have a class get default styles */
@@ -177,16 +178,8 @@ h2 > a {
   color: #ffffff;
 }
 
-main {
-  overflow-x: hidden;
-}
-
 .layout-container {
   background-color: #101010;
-}
-
-main {
-  overflow-x: hidden;
 }
 
 main .container {

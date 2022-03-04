@@ -61,14 +61,11 @@ h2 {
     }
 }
 // LAYOUT SETTINGS
-main {
-    overflow-x: hidden;
-}
+
 .layout-container {
     background-color: color(black);
 }
 main {
-    overflow-x: hidden;
 & .container{
     width: calc(100% - 390px);
     margin:0 auto;
